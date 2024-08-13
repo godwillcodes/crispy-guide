@@ -1,9 +1,13 @@
 <script setup>
-// import SecondaryMenu from '@/components/SecondaryMenu.vue';
+import Personal from '@/components/home/Personal.vue';
+import CorporateSolutions from '@/components/home/CorporateSolutions.vue';
+import StockMarket from '@/components/StockMarket.vue';
 </script>
 
 <template>
   <main>
-    <!-- <SecondaryMenu /> -->
+     <Personal />
+     <CorporateSolutions />
+     <StockMarket />
   </main>
 </template>

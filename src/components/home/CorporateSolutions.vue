@@ -1,11 +1,11 @@
 <template>
-    <section class="bg-white py-12">
+    <section class="bg-gray-100 py-12">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <!-- Title and Subtitle -->
     <div class="text-center max-w-2xl mx-auto mb-12">
-      <h2 class="text-2xl text-gray-900 mb-4">Personal Solutions</h2>
+      <h2 class="text-2xl text-gray-900 mb-4">Corporate Solutions</h2>
       <p class="text-base text-gray-600">
-        Looking for motor, health, property or general cover? Enjoy quality product offerings with high standards of service from NBK Bancassurance Intermediary Limited.
+        NBK Bancassurance Intermediary Limited has partnered with major insurers to offer your organization the best risk management advisory and insurance services in Kenya.
       </p>
     </div>
 
