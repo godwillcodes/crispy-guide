@@ -1,10 +1,10 @@
 <template>
-    <header class="bg-white">
-      <nav class="mx-auto flex max-w-7xl items-center justify-between pt-6 lg:px-8" aria-label="Global">
+    <header class="bg-white pt-0 lg:pt-6">
+      <nav class="mx-auto flex max-w-7xl items-center p-6 lg:p-0 shadow lg:shadow-none justify-between" aria-label="Global">
         <!-- Logo Section -->
         <a href="#" class="my-auto items-center">
           <span class="sr-only">Your Company</span>
-          <img class="h-10 w-auto"  src="/assets/images/logo.svg" alt="Company Logo">
+          <img class="h-10 w-auto" src="/assets/images/logo.svg" alt="Company Logo">
         </a>
   
         <!-- Mobile Menu Button -->
@@ -37,7 +37,7 @@
           </a>
   
           <!-- Search Icon -->
-          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 mb-5 text-[#FFAA00]">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-6 w-6 mb-5 text-[#FFAA00]" @click="openModal">
             <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
           </svg>
         </div>
@@ -73,28 +73,70 @@
           </div>
         </div>
       </div>
+  
+      <!-- Modal -->
+      <div v-if="isModalOpen" class="relative z-10" role="dialog" aria-modal="true">
+    <!-- Overlay -->
+    <div class="fixed inset-0 bg-[#3C251F] bg-opacity-25 transition-opacity"></div>
+    <!-- Modal Content -->
+    <div class="fixed inset-0 z-10 w-screen overflow-y-auto p-4 sm:p-6 md:p-20">
+      <div class="mx-auto max-w-2xl transform divide-y divide-gray-500 divide-opacity-20 overflow-hidden rounded-xl bg-[#3C251F] shadow-2xl transition-all ">
+        <div class="relative">
+          <!-- Search Input -->
+          <svg class="pointer-events-none absolute left-4 top-3.5 h-5 w-5 text-[#FFAA00]" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+          </svg>
+          <input type="text" class="h-12 w-full border-0 bg-transparent pl-11 pr-4 text-white focus:ring-0 focus:ring-yellow-400 sm:text-sm" placeholder="Search...">
+        </div>
+        <ul class="max-h-80 scroll-py-2 divide-y divide-gray-500 divide-opacity-10 overflow-y-auto">
+          <!-- Example items here -->
+          <li class="p-2">
+            <h2 class="mb-2 mt-4 px-3 text-base font-semibold text-white">Recent searches</h2>
+            <ul class="text-sm text-white">
+              <li class="group flex cursor-default select-none items-center rounded-md px-3 py-2">
+                <svg class="h-4 w-4 flex-none text-[#FFAA00]" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 8.25h15m-16.5 7.5h15m-1.8-13.5l-3.9 19.5m-2.1-19.5l-3.9 19.5" />
+                </svg>
+                <p class="ml-3 text-xs">Example Item</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="flex justify-center gap-x-4 py-4">
+          <button type="button" @click="closeModal" class="inline-block rounded-md px-3 py-2 text-sm font-semibold text-white ring-1 ring-[#FFAA00] hover:ring-[#FFAA00]/80">
+            Close
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
     </header>
   </template>
   
-  <script>
-  export default {
-    data() {
-      return {
-        open: false
-      };
-    },
-    methods: {
-      togglePrimaryMenu() {
-        this.open = !this.open;
-      },
-      closePrimaryMenu() {
-        this.open = false;
-      }
-    }
-  };
+  <script setup>
+  import { ref } from 'vue';
+  
+  const open = ref(false);
+  const isModalOpen = ref(false);
+  
+  function togglePrimaryMenu() {
+    open.value = !open.value;
+  }
+  
+  function closePrimaryMenu() {
+    open.value = false;
+  }
+  
+  function openModal() {
+    isModalOpen.value = true;
+  }
+  
+  function closeModal() {
+    isModalOpen.value = false;
+  }
   </script>
   
   <style scoped>
-  /* Add any scoped styles here if necessary */
+  /* Add any additional styles here if needed */
   </style>
   
