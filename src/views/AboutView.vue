@@ -1,15 +1,15 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
-</template>
+<script setup>
+import Content from '@/components/about/Content.vue'
+import ValueProposition from '@/components/about/ValueProposition.vue'
+import StockMarket from '@/components/StockMarket.vue';
+import Search from '@/components/Search.vue';
+</script>
 
-<style>
-@media (min-width: 1024px) {
-  .about {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-  }
-}
-</style>
+<template>
+  <main>
+    <Content />
+    <ValueProposition />
+    <StockMarket />
+    <Search />
+  </main>
+</template>
