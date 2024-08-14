@@ -3,7 +3,7 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <!-- Title and Subtitle -->
     <div class="text-center max-w-2xl mx-auto mb-12">
-      <h2 class="text-2xl text-gray-900 mb-4">Personal Solutions</h2>
+      <h2 class="text-2xl font-black text-gray-900 mb-4">Personal Solutions</h2>
       <p class="text-base text-gray-600">
         Looking for motor, health, property or general cover? Enjoy quality product offerings with high standards of service from NBK Bancassurance Intermediary Limited.
       </p>
@@ -12,38 +12,38 @@
     <!-- Cards Grid -->
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
       <!-- Card 1 -->
-      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/bg.svg');">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/1.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div class="text-center">
             <h3 class="text-white text-lg font-semibold mb-4">General Insurance</h3>
-            <a href="#" class="inline-block px-4 py-2 border border-white text-white text-xs rounded uppercase hover:bg-white font-light hover:text-black">Learn More</a>
+            <a href="#" class="inline-block px-4 py-2 border border-white hover:border-[#FFBA00] text-white text-xs rounded uppercase hover:bg-[#FFBA00] font-light hover:text-black">Learn More</a>
           </div>
         </div>
       </div>
 
-      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/bg.svg');">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/2.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div class="text-center">
-            <h3 class="text-white text-lg font-semibold mb-4">General Insurance</h3>
-            <a href="#" class="inline-block px-4 py-2 border border-white text-white text-xs rounded uppercase hover:bg-white font-light hover:text-black">Learn More</a>
+            <h3 class="text-white text-lg font-semibold mb-4">Health Insurance</h3>
+            <a href="#" class="inline-block px-4 py-2 border border-white hover:border-[#FFBA00] text-white text-xs rounded uppercase hover:bg-[#FFBA00] font-light hover:text-black">Learn More</a>
           </div>
         </div>
       </div>
 
-      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/bg.svg');">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/3.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div class="text-center">
-            <h3 class="text-white text-lg font-semibold mb-4">General Insurance</h3>
-            <a href="#" class="inline-block px-4 py-2 border border-white text-white text-xs rounded uppercase hover:bg-white font-light hover:text-black">Learn More</a>
+            <h3 class="text-white text-lg font-semibold mb-4">Motor Insurance</h3>
+            <a href="#" class="inline-block px-4 py-2 border border-white hover:border-[#FFBA00] text-white text-xs rounded uppercase hover:bg-[#FFBA00] font-light hover:text-black">Learn More</a>
           </div>
         </div>
       </div>
 
-      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/bg.svg');">
-        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+      <div class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover" style="background-image: url('assets/images/4.png');">
+        <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
           <div class="text-center">
-            <h3 class="text-white text-lg font-semibold mb-4">General Insurance</h3>
-            <a href="#" class="inline-block px-4 py-2 border border-white text-white text-xs rounded uppercase hover:bg-white font-light hover:text-black">Learn More</a>
+            <h3 class="text-white text-lg font-semibold mb-4">Property Insurance</h3>
+            <a href="#" class="inline-block px-4 py-2 border border-white hover:border-[#FFBA00] text-white text-xs rounded uppercase hover:bg-[#FFBA00] font-light hover:text-black">Learn More</a>
           </div>
         </div>
       </div>
