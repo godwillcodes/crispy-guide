@@ -15,7 +15,7 @@
         <!-- Card 1 -->
         <div
           class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover"
-          style="background-image: url('assets/images/1.png');">
+          style="background-image: url('assets/images/Rectangle 2610(6).png');">
           <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div class="text-center">
               <h3 class="text-white text-lg font-semibold mb-4">General Insurance</h3>
@@ -28,7 +28,7 @@
 
         <div
           class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover"
-          style="background-image: url('assets/images/2.png');">
+          style="background-image: url('assets/images/Rectangle 2610(7).png');">
           <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div class="text-center">
               <h3 class="text-white text-lg font-semibold mb-4">Health Insurance</h3>
@@ -41,7 +41,7 @@
 
         <div
           class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover"
-          style="background-image: url('assets/images/3.png');">
+          style="background-image: url('assets/images/Rectangle 2610(5).png');">
           <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div class="text-center">
               <h3 class="text-white text-lg font-semibold mb-4">Motor Insurance</h3>
@@ -54,7 +54,7 @@
 
         <div
           class="relative bg-cover rounded-lg shadow-lg overflow-hidden h-[181px] w-full lg:w-[291px] bg-center bg-cover"
-          style="background-image: url('assets/images/4.png');">
+          style="background-image: url('assets/images/Rectangle 2610(4).png');">
           <div class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
             <div class="text-center">
               <h3 class="text-white text-lg font-semibold mb-4">Property Insurance</h3>
