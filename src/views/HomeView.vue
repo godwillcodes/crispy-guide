@@ -2,6 +2,7 @@
 import Personal from '@/components/home/Personal.vue';
 import CorporateSolutions from '@/components/home/CorporateSolutions.vue';
 import StockMarket from '@/components/StockMarket.vue';
+import Search from '@/components/Search.vue';
 </script>
 
 <template>
@@ -9,5 +10,6 @@ import StockMarket from '@/components/StockMarket.vue';
      <Personal />
      <CorporateSolutions />
      <StockMarket />
+     <Search />
   </main>
 </template>
