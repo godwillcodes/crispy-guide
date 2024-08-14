@@ -4,6 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 import SecondaryMenu from '@/components/SecondaryMenu.vue';
 import PrimaryMenu from '@/components/PrimaryMenu.vue';
 import PageHeader from '@/components/PageHeader.vue';
+import Footer from '@/components/Footer.vue'
 
 </script>
 
@@ -25,6 +26,7 @@ import PageHeader from '@/components/PageHeader.vue';
  
 
   <RouterView />
+  <Footer />
 </template>
 
 <style scoped>

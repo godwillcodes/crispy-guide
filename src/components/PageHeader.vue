@@ -16,7 +16,7 @@
           
           <!-- Title Text -->
           <h1 class="absolute left-[64px] top-[37px] text-[#ffba00] font-black text-3xl">
-            NBK Bancassurance Intermediary Limited
+            NBK Bancassurance <br> Intermediary Limited
           </h1>
         </div>
       </div>
