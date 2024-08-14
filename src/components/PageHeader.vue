@@ -1,5 +1,5 @@
 <template>
-    <div class="relative h-[490px] bg-cover bg-center" style="background-image: url('/assets/images/bg.svg');">
+    <div class="relative h-[320px] md:h-[490px] bg-cover mt-[120px] bg-center" style="background-image: url('/assets/images/bg.svg');">
       <!-- Desktop Version -->
       <div class="absolute inset-0 flex items-center max-w-7xl mx-auto justify-start hidden lg:flex">
         <div class="relative w-[561px] h-[246px]">
@@ -10,7 +10,7 @@
           <div class="absolute left-0 top-[45px] w-[9px] h-[74px] bg-[#ffba00]"></div>
           
           <!-- Statement Text -->
-          <p class="absolute left-[63px] top-[145px] text-white text-lg font-normal">
+          <p class="absolute left-[63px] top-[130px] max-w-96 text-white text-lg font-normal">
             A financial safety net designed for you and everything that matters to you.
           </p>
           

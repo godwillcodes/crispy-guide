@@ -1,10 +1,10 @@
 <template>
     <header class="bg-white pt-0 lg:pt-6">
-      <nav class="mx-auto flex max-w-7xl items-center p-6 lg:p-0 shadow lg:shadow-none justify-between" aria-label="Global">
+      <nav class="mx-auto flex max-w-7xl items-center p-3 lg:p-0 shadow lg:shadow-none justify-between" aria-label="Global">
         <!-- Logo Section -->
         <a href="#" class="my-auto items-center">
           <span class="sr-only">Your Company</span>
-          <img class="h-10 w-auto" src="/assets/images/logo.svg" alt="Company Logo">
+          <img class="h-10 w-auto relative bottom-0 md:bottom-3 md:relative" src="/assets/images/logo.svg" alt="Company Logo">
         </a>
   
         <!-- Mobile Menu Button -->
