@@ -23,16 +23,18 @@
 
       <!-- Desktop Navigation Menu -->
       <div class="hidden lg:flex lg:gap-x-12 items-center">
-        <router-link to="/" class="text-sm leading-6 text-[#3C251F] relative group pb-6 transition-colors duration-300">
+        <router-link to="/" class="text-sm leading-6 text-[#3C251F] relative group pb-6 transition-colors duration-300"
+          exact-active-class="router-link-active">
           Home
           <span
-            class="absolute bottom-0 left-0 w-full h-1 bg-[#FFBA00] scale-x-0 group-hover:scale-x-100 transform transition-transform duration-300"></span>
+            class="absolute bottom-0 left-0 w-full h-1 bg-[#FFBA00] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
         </router-link>
         <router-link to="/about"
-          class="text-sm leading-6 text-[#3C251F] relative group pb-6 transition-colors duration-300">
+          class="text-sm leading-6 text-[#3C251F] relative group pb-6 transition-colors duration-300"
+          exact-active-class="router-link-active">
           About Bancassurance
           <span
-            class="absolute bottom-0 left-0 w-full h-1 bg-[#FFBA00] scale-x-0 group-hover:scale-x-100 transform transition-transform duration-300"></span>
+            class="absolute bottom-0 left-0 w-full h-1 bg-[#FFBA00] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"></span>
         </router-link>
 
         <a href="#"
@@ -164,7 +166,6 @@ function closeModal() {
   isModalOpen.value = false;
 }
 </script>
-
 <style scoped>
 /* Add any additional styles here if needed */
 .router-link-active {
@@ -173,7 +174,17 @@ function closeModal() {
 }
 
 .router-link-active span {
-  scale-x: 100% !important;
-  /* Make the underline span fully visible */
+  transform: scaleX(1) !important;
+  /* Make the underline span fully visible when active */
+}
+
+.group:hover span,
+.router-link-active span {
+  transform: scaleX(1);
+  /* Ensure the underline is visible on hover or when active */
+  transform-origin: bottom left;
+  /* Make sure the scale starts from the left */
+  transition: transform 0.3s ease-in-out;
+  /* Transition effect for scaling */
 }
 </style>
